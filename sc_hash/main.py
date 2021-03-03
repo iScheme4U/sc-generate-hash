@@ -26,6 +26,7 @@ from scutils import Singleton
 from scutils import log_init
 
 from sc_hash.utils import config
+from .hash_utils import HashUtils
 
 
 class Runner(metaclass=Singleton):
@@ -40,6 +41,12 @@ class Runner(metaclass=Singleton):
         except AttributeError:
             pass
         logging.getLogger(__name__).info('program is running in development mode: {}'.format(dev_mode))
+        libs = set()
+        lib_paths = config.get("scan_libs")
+        if lib_paths is not None:
+            for lib_path in lib_paths:
+                libs.add(lib_path)
+        HashUtils.generate_hash(libs)
         return 0
 
 

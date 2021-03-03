@@ -30,6 +30,10 @@ The default configuration file looks like this::
     dev:
       # whether this program is running is development mode
       dev_mode: False
+    # directories to be scanned for jars
+    scan_libs:
+      - /tmp/libs
+      - /tmp/libs2
 
 
 Dependencies

@@ -25,4 +25,8 @@ DEFAULT_CONFIG = {
     "dev": {
         "dev_mode": False,
     },
+    # directories to be scanned for jars
+    "scan_libs": [
+        "/tmp/libs"
+    ],
 }
