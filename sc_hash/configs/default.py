@@ -27,6 +27,5 @@ DEFAULT_CONFIG = {
     },
     # directories to be scanned for jars
     "scan_libs": [
-        "/tmp/libs"
     ],
 }

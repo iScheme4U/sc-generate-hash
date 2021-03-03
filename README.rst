@@ -45,6 +45,9 @@ Dependencies
 Changes
 -------
 
+Version 0.0.2
+    * Change default setting scan_libs to empty
+
 Version 0.0.1
     * Initial version
 
