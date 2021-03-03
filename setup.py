@@ -46,7 +46,7 @@ with open('README.rst') as fd:
 
 setup(
     name='sc-generate-hash',
-    version=get_version("schash/__init__.py"),
+    version=get_version("sc_hash/__init__.py"),
     url='https://github.com/Scott-Lau/sc-generate-hash',
     packages=find_packages(),
     author='Scott Lau',
@@ -60,7 +60,7 @@ setup(
     ),
     entry_points={
         'console_scripts': [
-            'sc-generate-hash=schash.main:main',
+            'sc-generate-hash=sc_hash.main:main',
         ],
     },
     classifiers=[
@@ -80,7 +80,7 @@ setup(
         'sc-config>=0.0.3',
     ],
     package_data={
-        'schash': ['tests/sample_config/default.yml'],
+        'sc_hash': ['tests/sample_config/default.yml'],
     },
     include_package_data=True,
 )

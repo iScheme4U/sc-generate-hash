@@ -23,7 +23,7 @@ import logging
 
 from scconfig.config import Config
 
-from schash.configs.default import DEFAULT_CONFIG
+from sc_hash.configs.default import DEFAULT_CONFIG
 
 # =========================================
 #       INSTANCES

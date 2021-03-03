@@ -25,7 +25,7 @@ import logging
 from scutils import Singleton
 from scutils import log_init
 
-from schash.utils import config
+from sc_hash.utils import config
 
 
 class Runner(metaclass=Singleton):

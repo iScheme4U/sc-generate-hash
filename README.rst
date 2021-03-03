@@ -22,7 +22,7 @@ Configuration
 First, make sure /var/opt/sc directory exists, if not create this directory and make sure current user has the right
 to create files in this directory.
 
-You can copy `default.yml <https://github.com/Scott-Lau/sc-generate-hash/blob/master/schash/tests/sample_config/default.yml>`_
+You can copy `default.yml <https://github.com/Scott-Lau/sc-generate-hash/blob/master/sc_hash/tests/sample_config/default.yml>`_
 to /var/opt/sc/.sc-generate-hash/production.yml to initialize the production configuration.
 
 The default configuration file looks like this::
